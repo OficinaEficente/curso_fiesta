@@ -8,4 +8,6 @@ Cloudflare Workers: `npm ci`, `npm run build`, `npm run deploy`. Worker `curso-f
 
 ## Inscrição
 
-Os botões direcionam ao WhatsApp oficial presente no hub da Oficina Eficiente, com mensagem específica do Fiesta. Não foi reutilizado o formulário ou checkout de outro curso. Para o fluxo de compra com formulário, fornecer a chave AtendeIA e checkout específicos do Fiesta. Preço, parcelamento e condições de acesso não são anunciados sem confirmação atual. Não há envio de eventos de compra ou início de checkout no clique de contato.
+Os três botões abrem o formulário AtendeIA específico do Fiesta (chave fornecida em 08/11/2026). O script é carregado uma única vez ao abrir a janela, com tentativa de recarregamento em caso de erro de rede. O redirecionamento ao checkout é gerenciado pelo formulário externo.
+
+Confirmar o checkout Eduzz no painel do formulário, preço/parcelamento, condições de acesso e publicação no domínio. Nenhum evento de compra é disparado no clique de abertura do formulário.
