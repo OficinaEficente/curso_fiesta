@@ -10,4 +10,4 @@ Cloudflare Workers: `npm ci`, `npm run build`, `npm run deploy`. Worker `curso-f
 
 Os três botões abrem o formulário AtendeIA específico do Fiesta (chave fornecida em 08/11/2026). O script é carregado uma única vez ao abrir a janela, com tentativa de recarregamento em caso de erro de rede. O redirecionamento ao checkout é gerenciado pelo formulário externo.
 
-Confirmar o checkout Eduzz no painel do formulário, preço/parcelamento, condições de acesso e publicação no domínio. Nenhum evento de compra é disparado no clique de abertura do formulário.
+Condições confirmadas: R$89, parcelamento conforme checkout, acesso por 1 ano, certificado e suporte pela plataforma. Checkout Eduzz já configurado no formulário. Domínio informado: https://fiesta.oficinaeficiente.com.br/. Nenhum evento de compra é disparado no clique de abertura do formulário.
